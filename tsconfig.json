@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "nodenext",
+    "strict": true,
+    "baseUrl": ".",
+    "types": ["cypress", "node"],
+    "noEmit": true,
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts"]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "interview-starter-cypress-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "lint": "eslint .",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "typecheck": "tsc",
+    "check": "npm run typecheck && npm run lint && npm run prettier"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/eslint__js": "^8.42.3",
+    "cypress": "^13.14.2",
+    "eslint": "^9.9.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.4.0"
+  }
+}
