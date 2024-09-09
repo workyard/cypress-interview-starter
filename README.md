@@ -30,6 +30,7 @@ This will open the Cypress test runner, and you will be able to see and run any 
 ## Rules for the interview coding exercise
 
 1. You are allowed to use:
+
    - Google or any other search engine.
    - Any third-party NPM packages you deem necessary.
 
